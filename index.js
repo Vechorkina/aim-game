@@ -32,6 +32,7 @@ createRandomCircle()
 
 function startGame() {
   setInterval(decreaseTime, 1000);
+  createRandomCircle()
   //screens[1].classList.add("up");
   setTime(time);
 }
